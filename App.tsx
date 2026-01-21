@@ -100,8 +100,12 @@ const App: React.FC = () => {
       `;
 
       const response = await ai.models.generateContent({
-        model: 'gemini-3-flash-preview',
+        model: 'gemini-1.5-flash',
         contents: prompt,
+        generationConfig: {
+      maxOutputTokens: 512,
+      temperature: 0.7,
+    },
       });
 
       setAiAnalysis(response.text || 'Không thể tạo phân tích vào lúc này.');
