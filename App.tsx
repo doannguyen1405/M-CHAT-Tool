@@ -498,11 +498,6 @@ const App: React.FC = () => {
       {!showResult && (
         <footer className="mt-12 py-10 border-t border-slate-200 bg-white no-print">
           <div className="max-w-4xl mx-auto px-4 text-center">
-              <h5 className="font-bold text-slate-700 mb-3">HƯỚNG DẪN CHẤM ĐIỂM CHI TIẾT</h5>
-              <div className="text-sm text-slate-500 space-y-2 inline-block text-left bg-slate-50 p-5 rounded-xl border border-slate-200">
-                <p>• Các câu <span className="font-bold text-blue-600">2, 5, 12</span> nếu trả lời <strong>“Có”</strong> thì chấm 1 điểm, <strong>“Không”</strong> thì chấm 0 điểm.</p>
-                <p>• Các câu <span className="font-bold text-blue-600">còn lại</span> nếu trả lời <strong>“Có”</strong> thì chấm 0 điểm, <strong>“Không”</strong> thì chấm 1 điểm.</p>
-              </div>
               <p className="mt-8 text-[10px] text-slate-400 uppercase tracking-widest font-bold">Hệ thống hỗ trợ chuyên sâu ngành giáo dục đặc biệt</p>
           </div>
         </footer>
