@@ -174,7 +174,7 @@ const App: React.FC = () => {
       <header className="bg-blue-600 text-white shadow-lg sticky top-0 z-50 no-print">
         <div className="max-w-4xl mx-auto px-4 py-4 md:py-6 text-center">
           <h1 className="text-xl md:text-2xl font-bold uppercase tracking-tight">
-            Bảng kiểm nguy cơ tự kỷ ở trẻ em M-CHAT-R
+            AH M-CHAT-R Công cụ sàng lọc nguy cơ tự kỷ
           </h1>
           <p className="text-sm md:text-base opacity-90 mt-1 italic font-light">
             (Dành cho trẻ từ 16 - 30 tháng tuổi)
@@ -189,7 +189,7 @@ const App: React.FC = () => {
           {/* Header chỉ xuất hiện trong PDF/Print */}
           <div className="hidden print:block text-center border-b-2 border-blue-600 pb-4 mb-8">
             <h1 className="text-2xl font-bold uppercase text-blue-800">Báo cáo kết quả sàng lọc M-CHAT-R</h1>
-            <p className="text-sm text-slate-600 italic">Hệ thống hỗ trợ chẩn đoán giáo dục đặc biệt chuyên sâu</p>
+            <p className="text-sm text-slate-600 italic">Hệ thống tự động hỗ trợ sàng lọc nguy cơ tự kỷ ở trẻ em</p>
           </div>
 
           {/* Section A: Thông tin định danh */}
